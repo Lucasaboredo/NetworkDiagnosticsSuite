@@ -1,0 +1,7 @@
+services:
+  network-lab:
+    build: .
+    hostname: tp6-network-lab
+    ports:
+      - "1161:161/udp"
+      - "2222:22/tcp"
